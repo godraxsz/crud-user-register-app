@@ -380,7 +380,7 @@ function App() {
             />
           </Menu.Item>
           <Menu.Item fluid={true}>
-            <div className="timePicker">
+            <div>
               <SemanticDatepicker format='DD-MM-YYYY' iconPosition='left' locale="pt-BR" type="range"
                 onChange={handleSemanticDataPicker}
               />
